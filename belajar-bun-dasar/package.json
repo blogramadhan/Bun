@@ -2,6 +2,9 @@
   "name": "belajar-bun-dasar",
   "module": "index.ts",
   "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
   "private": true,
   "devDependencies": {
     "@types/bun": "latest",
