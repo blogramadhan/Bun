@@ -5,5 +5,5 @@ const loginValidation = z.object({
     password: z.string().min(8).max(16),
 });
 
-const result = loginValidation.parse({ email: "test@testcom", password: "12345678" });
+const result = loginValidation.parse({ email: "test@test.com", password: "12345678" });
 console.info(result);
